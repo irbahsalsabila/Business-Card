@@ -1,0 +1,54 @@
+html {
+    background-image: url(wall11.jpg);
+    /* background-color: #cd8d7b; */
+    overflow: none;
+    background-size: cover;
+    display: inline-block;
+}
+
+#content {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    background-image: url(Facebook.jpeg);
+    /* background-color: #cee397; */
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 30%);
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -200px;
+    font-family: Quicksand;
+}
+
+#photo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#name {
+    margin-top: 20px;
+}
+
+#email {
+    text-decoration: none;
+    color: #679b9b;
+}
+
+#email:hover {
+    text-decoration: none;
+    color: #f67575;
+}
+
+.link {
+    text-decoration: none;
+    color: #698474;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #cd8d7b;
+}

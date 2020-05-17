@@ -1,0 +1,52 @@
+html {
+    background-image: url(pattern2.jpg);
+    overflow: none;
+    background-size: cover;
+    display: inline-block;
+}
+
+#content {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 5px;
+    background-color: #d8b9c3;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 30%);
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -200px;
+    font-family: Quicksand;
+}
+
+#photo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#name {
+    margin-top: 20px;
+}
+
+#email {
+    text-decoration: none;
+    color: #4d4c7d;
+}
+
+#email:hover {
+    text-decoration: none;
+    color: #116979;
+}
+
+.link {
+    text-decoration: none;
+    color: #512b58;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #ba6b57;
+}
